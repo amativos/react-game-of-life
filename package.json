@@ -1,0 +1,11 @@
+{
+  "name": "react-game-of-life",
+  "version": "1.0.0",
+  "description": "Game of Life in react and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test"
+  },
+  "author": "",
+  "license": "MIT"
+}
