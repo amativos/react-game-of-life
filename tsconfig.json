@@ -1,0 +1,19 @@
+{
+  "version": "1.8.10",
+
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowJs": true,
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "removeComments": true
+  },
+  "files": [
+    "typings/index.d.ts",
+    "src/index.tsx"
+  ]
+}
