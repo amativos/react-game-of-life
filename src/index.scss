@@ -6,3 +6,40 @@ $susy: (
 
 body {
 }
+
+#root {
+  text-align: center;
+}
+
+#game-container {
+  margin: 0 auto;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+  display: inline-block;
+}
+
+#game-toolbar {
+  padding: 6px;
+  height: 30px;
+  //border-bottom: 1px solid gray;
+}
+
+#game-board {
+  //display: flex;
+  //flex-flow: row wrap;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.cell--dead {
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.cell--alive {
+  @extend .cell--dead;
+  background-color: red;
+}
